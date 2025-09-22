@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "The Lighthouse Keeper's Secret - Digital Storybook",
   description:
     "An interactive digital storybook created by Riya. Follow Dr. Maya Chen's thrilling adventure as she uncovers the mysteries beneath Beacon Point Lighthouse.",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
