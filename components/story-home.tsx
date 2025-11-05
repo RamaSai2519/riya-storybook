@@ -10,33 +10,33 @@ import Link from "next/link"
 const chapters = [
   {
     id: 1,
-    title: "The Arrival",
-    description: "Dr. Maya Chen arrives at Beacon Point Lighthouse to begin her marine research.",
+    title: "The Application",
+    description: "Riya applies for a scholarship in her final year, hoping to pursue higher education.",
     duration: "5 min read",
   },
   {
     id: 2,
-    title: "Strange Signals",
-    description: "Maya discovers unusual sonar readings coming from the deep ocean trenches.",
-    duration: "7 min read",
+    title: "The Rejection",
+    description: "Facing rejection, Riya finds a new opportunity in a national hackathon.",
+    duration: "6 min read",
   },
   {
     id: 3,
-    title: "The Deep Dive",
-    description: "A dangerous underwater expedition reveals an ancient secret.",
-    duration: "8 min read",
+    title: "The Hackathon",
+    description: "Riya and her team compete against the best universities in India.",
+    duration: "7 min read",
   },
   {
     id: 4,
-    title: "The Guardian's Tale",
-    description: "Old lighthouse keeper Thomas shares the truth about Beacon Point's history.",
+    title: "The Victory",
+    description: "Success at the hackathon opens new doors for Riya and her team.",
     duration: "6 min read",
   },
   {
     id: 5,
-    title: "The Choice",
-    description: "Maya must decide whether to reveal her discovery to the world.",
-    duration: "9 min read",
+    title: "The New Beginning",
+    description: "Riya graduates and embarks on a journey as both a student and entrepreneur.",
+    duration: "7 min read",
   },
 ]
 
@@ -55,9 +55,9 @@ export function StoryHome() {
         />
         <div className="relative z-10 container mx-auto px-4 py-16">
           <div className="text-center text-white">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">The Lighthouse Keeper's Secret</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">Riya's Journey</h1>
             <p className="text-xl md:text-2xl mb-8 text-slate-300 max-w-3xl mx-auto text-pretty">
-              A thrilling adventure about discovery, courage, and the mysteries that lie beneath the ocean's surface.
+              An inspiring story of determination, dreams, and discovery. Follow Riya, a 20-year-old in her final year of graduation, as she navigates challenges and finds her path.
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export function StoryHome() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Choose Your Chapter</h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Follow Dr. Maya Chen's journey as she uncovers the secrets hidden beneath Beacon Point Lighthouse.
+            Follow Riya Sharma's journey from a small town in Jaipur to becoming an award-winning coder and entrepreneur.
           </p>
         </div>
 
@@ -118,12 +118,12 @@ export function StoryHome() {
                     backgroundImage: `url('/professional-young-woman-marine-biologist-with-div.jpg')`,
                   }}
                 />
-                <CardTitle>Dr. Maya Chen</CardTitle>
-                <CardDescription className="text-slate-300">Marine Biologist</CardDescription>
+                <CardTitle>Riya Sharma</CardTitle>
+                <CardDescription className="text-slate-300">Computer Science Student</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate-300">
-                  A brilliant young scientist who discovers something extraordinary in the depths near Beacon Point.
+                  A determined 20-year-old from Jaipur in her final year of graduation at Delhi University. Her passion for coding and entrepreneurship drives her journey.
                 </p>
               </CardContent>
             </Card>
@@ -136,12 +136,12 @@ export function StoryHome() {
                     backgroundImage: `url('/elderly-lighthouse-keeper-with-weathered-face-and-.jpg')`,
                   }}
                 />
-                <CardTitle>Thomas Hartwell</CardTitle>
-                <CardDescription className="text-slate-300">Lighthouse Keeper</CardDescription>
+                <CardTitle>Riya's Parents</CardTitle>
+                <CardDescription className="text-slate-300">Textile Shop Owners</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate-300">
-                  The wise old keeper of Beacon Point who has guarded its secrets for over forty years.
+                  Hardworking parents who run a modest textile shop in Jaipur and have sacrificed everything for Riya's education.
                 </p>
               </CardContent>
             </Card>
@@ -154,12 +154,12 @@ export function StoryHome() {
                     backgroundImage: `url('/mysterious-ancient-sea-creature-with-bioluminescen.jpg')`,
                   }}
                 />
-                <CardTitle>The Guardian</CardTitle>
-                <CardDescription className="text-slate-300">Ancient Protector</CardDescription>
+                <CardTitle>The Team</CardTitle>
+                <CardDescription className="text-slate-300">College Friends</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate-300">
-                  A mysterious being from the depths who has watched over the ocean for centuries.
+                  Priya, Arjun, and Karan—Riya's teammates who share her dream of making a difference through technology.
                 </p>
               </CardContent>
             </Card>
