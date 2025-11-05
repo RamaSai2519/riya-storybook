@@ -7,9 +7,9 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "The Lighthouse Keeper's Secret - Digital Storybook",
+  title: "Riya's Journey",
   description:
-    "An interactive digital storybook created by Riya. Follow Dr. Maya Chen's thrilling adventure as she uncovers the mysteries beneath Beacon Point Lighthouse.",
+    "An interactive digital storybook created by Riya. Follow Riya Magdum's inspiring journey as she learns about empathy, collaboration, and making a difference.",
 }
 
 export default function RootLayout({
