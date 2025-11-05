@@ -10,32 +10,32 @@ import Link from "next/link"
 const chapters = [
   {
     id: 1,
-    title: "The Application",
-    description: "Riya applies for a scholarship in her final year, hoping to pursue higher education.",
+    title: "The Dream",
+    description: "Riya Magdum, a 16-year-old from a well-to-do family in Belagavi, discovers her passion for coding.",
     duration: "5 min read",
   },
   {
     id: 2,
-    title: "The Rejection",
-    description: "Facing rejection, Riya finds a new opportunity in a national hackathon.",
+    title: "The Challenge",
+    description: "Selected for a national coding competition, Riya decides to form an unconventional team.",
     duration: "6 min read",
   },
   {
     id: 3,
-    title: "The Hackathon",
-    description: "Riya and her team compete against the best universities in India.",
-    duration: "7 min read",
+    title: "The Team",
+    description: "Riya meets her teammates from a government school and learns about different perspectives.",
+    duration: "6 min read",
   },
   {
     id: 4,
-    title: "The Victory",
-    description: "Success at the hackathon opens new doors for Riya and her team.",
+    title: "The Project",
+    description: "Working together, the team builds 'Seekho' while bridging their different worlds.",
     duration: "6 min read",
   },
   {
     id: 5,
-    title: "The New Beginning",
-    description: "Riya graduates and embarks on a journey as both a student and entrepreneur.",
+    title: "The Presentation",
+    description: "At the national championship, Riya's team presents their project and learns what truly matters.",
     duration: "7 min read",
   },
 ]
@@ -57,7 +57,7 @@ export function StoryHome() {
           <div className="text-center text-white">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">Riya's Journey</h1>
             <p className="text-xl md:text-2xl mb-8 text-slate-300 max-w-3xl mx-auto text-pretty">
-              An inspiring story of determination, dreams, and discovery. Follow Riya, a 20-year-old in her final year of graduation, as she navigates challenges and finds her path.
+              An inspiring story of privilege, responsibility, and friendship. Follow Riya Magdum, a 16-year-old high school student from Belagavi, as she learns what it truly means to make a difference.
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export function StoryHome() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Choose Your Chapter</h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            Follow Riya Sharma's journey from a small town in Jaipur to becoming an award-winning coder and entrepreneur.
+            Follow Riya Magdum's journey from a privileged life in Belagavi to discovering the power of collaboration and empathy.
           </p>
         </div>
 
@@ -118,12 +118,12 @@ export function StoryHome() {
                     backgroundImage: `url('/professional-young-woman-marine-biologist-with-div.jpg')`,
                   }}
                 />
-                <CardTitle>Riya Sharma</CardTitle>
-                <CardDescription className="text-slate-300">Computer Science Student</CardDescription>
+                <CardTitle>Riya Magdum</CardTitle>
+                <CardDescription className="text-slate-300">High School Student</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate-300">
-                  A determined 20-year-old from Jaipur in her final year of graduation at Delhi University. Her passion for coding and entrepreneurship drives her journey.
+                  A bright 16-year-old from a well-to-do family in Belagavi. Her passion for coding leads her to discover the importance of empathy and collaboration.
                 </p>
               </CardContent>
             </Card>
@@ -136,12 +136,12 @@ export function StoryHome() {
                     backgroundImage: `url('/elderly-lighthouse-keeper-with-weathered-face-and-.jpg')`,
                   }}
                 />
-                <CardTitle>Riya's Parents</CardTitle>
-                <CardDescription className="text-slate-300">Textile Shop Owners</CardDescription>
+                <CardTitle>Riya's Family</CardTitle>
+                <CardDescription className="text-slate-300">Supportive Parents</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate-300">
-                  Hardworking parents who run a modest textile shop in Jaipur and have sacrificed everything for Riya's education.
+                  A successful business family in Belagavi who support Riya's dreams while learning to appreciate her broader vision.
                 </p>
               </CardContent>
             </Card>
@@ -155,11 +155,11 @@ export function StoryHome() {
                   }}
                 />
                 <CardTitle>The Team</CardTitle>
-                <CardDescription className="text-slate-300">College Friends</CardDescription>
+                <CardDescription className="text-slate-300">School Friends</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate-300">
-                  Priya, Arjun, and Karan—Riya's teammates who share her dream of making a difference through technology.
+                  Aditya, Sanjana, and Rohan—students from a government school who teach Riya the true meaning of innovation and determination.
                 </p>
               </CardContent>
             </Card>
