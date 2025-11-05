@@ -50,7 +50,7 @@ export function StoryHome() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
-            backgroundImage: `url('/dramatic-lighthouse-on-rocky-coast-at-sunset-with-.jpg')`,
+            backgroundImage: `url('/hero-background.jpg')`,
           }}
         />
         <div className="relative z-10 container mx-auto px-4 py-16">
@@ -115,7 +115,7 @@ export function StoryHome() {
                 <div
                   className="character-avatar w-24 h-24 mx-auto rounded-full bg-cover bg-center mb-4"
                   style={{
-                    backgroundImage: `url('/professional-young-woman-marine-biologist-with-div.jpg')`,
+                    backgroundImage: `url('/riya-avatar.jpg')`,
                   }}
                 />
                 <CardTitle>Riya Magdum</CardTitle>
@@ -133,7 +133,7 @@ export function StoryHome() {
                 <div
                   className="character-avatar w-24 h-24 mx-auto rounded-full bg-cover bg-center mb-4"
                   style={{
-                    backgroundImage: `url('/elderly-lighthouse-keeper-with-weathered-face-and-.jpg')`,
+                    backgroundImage: `url('/family-avatar.jpg')`,
                   }}
                 />
                 <CardTitle>Riya's Family</CardTitle>
@@ -151,7 +151,7 @@ export function StoryHome() {
                 <div
                   className="character-avatar w-24 h-24 mx-auto rounded-full bg-cover bg-center mb-4"
                   style={{
-                    backgroundImage: `url('/mysterious-ancient-sea-creature-with-bioluminescen.jpg')`,
+                    backgroundImage: `url('/team-avatar.jpg')`,
                   }}
                 />
                 <CardTitle>The Team</CardTitle>

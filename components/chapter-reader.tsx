@@ -53,13 +53,13 @@ export function ChapterReader({ chapter, chapterId }: ChapterReaderProps) {
 
   const getChapterImage = (chapterId: number) => {
     const chapterImages = {
-      1: "/chapter1-arrival.jpg",
-      2: "/chapter2-signals.jpg",
-      3: "/chapter3-deep-dive.jpg",
-      4: "/chapter4-guardian-tale.jpg",
-      5: "/chapter5-choice.jpg",
+      1: "/chapter1-dream.jpg",
+      2: "/chapter2-challenge.jpg",
+      3: "/chapter3-team.jpg",
+      4: "/chapter4-project.jpg",
+      5: "/chapter5-presentation.jpg",
     }
-    return chapterImages[chapterId as keyof typeof chapterImages] || "/--chapter-background-.jpg"
+    return chapterImages[chapterId as keyof typeof chapterImages] || "/hero-background.jpg"
   }
 
   return (
